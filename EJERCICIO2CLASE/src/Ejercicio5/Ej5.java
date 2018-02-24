@@ -31,7 +31,7 @@ public class Ej5 {
             nu.num = leer.nextInt();
         }
         for (int i = 0; i <= nu.num; i++){
-        System.out.println("la serie fibonaccio de "+nu.num+" es: " + nu.fibo(i));
+        System.out.println("la serie fibonaccio de "+nu.num+" en la seccion: "+(i)+" es: " + nu.fibo(i));
         }
     }
 }
