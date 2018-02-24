@@ -7,7 +7,7 @@ package Ejercicio4;
 import java.util.Scanner;
 /**
  *
- * @author camil
+ * @author Camilo Andres D'isidoro Flechas y Dairo Estiben Beltran Martinez
  * Desarrolle un programa que dado un número total de
  * segundos, devuelve el número de minutos, horas, semanas y
  * días.
@@ -33,6 +33,9 @@ public class Ej4 {
     void setMin(int a){
         min = a;
     }
+    /**
+     * Ejecuta el código, invocado por Main
+     */
     public void Abrir(){
         //iniciacion de variables
         int a,d = 0;

@@ -1,20 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Ejercicio5;
 import java.util.Scanner;
-
 /**
  *
- * @author camil
+ * @author Camilo Andres D'isidoro Flechas y Dairo Estiben Beltran Martinez
  */
 public class Ej5 {
     Scanner leer = new Scanner(System.in);
+    /**
+     * Clase Fibonacci en la cual se guarda la serie a calcular
+     */
     class Fibonacci{
-    int num;
-    int fibo(int num){
+        int num;
+        int fibo(int num){
         if(num<=1){
             return num;
         }else{
@@ -22,6 +19,9 @@ public class Ej5 {
         }
     }
  }
+    /**
+     * Ejecuta el código, invocado por Main
+     */
     public void Abrir(){
         Fibonacci nu = new Fibonacci();
         System.out.println("Ingresa hasta que numero deseas hacer la serie fibonacci");

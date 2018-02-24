@@ -12,6 +12,9 @@ import java.util.Scanner;
  */
 public class Ej1 {
     Scanner leer = new Scanner(System.in);
+    /**
+     * Ejecuta el código, invocado por Main
+     */
     public void Abrir(){
         int notas;
         String alumno;

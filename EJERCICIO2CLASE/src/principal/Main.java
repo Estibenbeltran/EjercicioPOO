@@ -10,15 +10,40 @@ import Ejercicio5.Ej5;
  * @version 1.0
  * @author Camilo Andres D'isidoro Flechas y Dairo Estiben Beltran Martinez
  */
-
 public class Main {
     public static void main(String[] args) {
         int opc = 5;
         Scanner leer = new Scanner(System.in);
+        //Declaracion de Objetos
+        /**
+         * Ejercicio 1: Software por consola que ingrese el nombre el alumno
+         * y n cantidad de notas y al final me indique el promedio o nota final del alumno
+         */
         Ej1 Ejer1 = new Ej1();
+        /**
+         * Ejercicio 2: Desarrolle un programa que me permita hacer n cantidad de consultas
+         * sobre la estacion de año de cada mes ingresado (1-3 Invierno / 4-6 verano / 7-9 otoño / 10-12 primavera)
+         */
         Ej2 Ejer2 = new Ej2();
+        /**
+         * Desarrollar un programa que identifique en que categoría
+         * debo registrarme según estos datos. 
+         * 0-6: preinfantil
+         * 7-17: infantil
+         * 18-25: juvenil
+         * 26-45: mayores
+         * 60+: veteranos
+         */
         Ej3 Ejer3 = new Ej3();
+        /**
+         * Desarrolle un programa que dado un número total de
+         * segundos, devuelve el número de minutos, horas, semanas y
+         * días.
+         */
         Ej4 Ejer4 = new Ej4();
+        /**
+         * Desarrolle la Serie Fibonacci
+         */
         Ej5 Ejer5 = new Ej5();
         while(opc!=0){
             //segun la opcion se ejecuta el ejercicio que desee el usuario

@@ -7,7 +7,7 @@ package Ejercicio3;
 import java.util.Scanner;
 /**
  *
- * @author camil
+ * @author Camilo Andres D'isidoro Flechas y Dairo Estiben Beltran Martinez
  * Desarrollar un programa que identifique en que categoría
  * debo registrarme según estos datos. 
  * 0-6: preinfantil
@@ -19,6 +19,9 @@ import java.util.Scanner;
 public class Ej3 {
     Scanner leer = new Scanner(System.in);
     int anios;
+    /**
+     * Ejecuta el código, invocado por Main
+     */
     public void Abrir(){
         System.out.println("Ingrese su edad");//peticion de datos
         anios = leer.nextInt();

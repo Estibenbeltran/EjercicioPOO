@@ -7,13 +7,16 @@ package Ejercicio2;
 import java.util.Scanner;
 /**
  *
- * @author camil
+ * @author Camilo Andres D'isidoro Flechas y Dairo Estiben Beltran Martinez
  * Ejercicio 2: Desarrolle un programa que me permita hacer n cantidad de consultas
  * sobre la estacion de año de cada mes ingresado (1-3 Invierno / 4-6 verano / 7-9 otoño / 10-12 primavera)
  */
 public class Ej2 {
     Scanner leer = new Scanner(System.in);
     int estacion;
+    /**
+     * Ejecuta el código, invocado por Main
+     */
     public void Abrir(){
         estacion = 13;
         while(estacion!=0){
